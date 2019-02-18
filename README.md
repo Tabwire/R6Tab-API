@@ -99,8 +99,10 @@ Example response: <u>[Click Here](https://github.com/Tabwire/R6Tab-API/blob/mast
 <hr>
 
 ## Call the leaderboard
-- Please note that players that are banned on R6Tab will not appear on this list and that **the leaderboard is refreshed every hour**
-- To call the leaderboard you must supply a <i>**sortplatform**</i> and a <i>**sortregion**</i> to the request
+
+Request URL {GET} https://r6tab.com/api/leaderboard.php<br>
+- Please note that players that are banned on R6Tab will not appear on this list and that **the leaderboards are refreshed every hour**<br>
+- To call the leaderboard you must supply a <i>**sortplatform**</i> and a <i>**sortregion**</i> to the request<br>
 
 METHOD | **sortplatform**:
 
@@ -117,12 +119,9 @@ METHOD | **sortregion**:
 - <i>**psn**</i> will only display Playstation players<br>
 - <i>**xbl**</i> will only display Xbox players<br>
 
-## Leaderboard call example
-- An example of a leaderboard call would be:
+Example: https://r6tab.com/api/leaderboards.php?sortplatform=psn&sortregion=p_currentmmr
 
-<i>**https://r6tab.com/api/leaderboards.php?sortplatform=uplay&sortregion=p_NA_currentmmr**</i>
-
-This will result in a few thing
+Example response: <u>[Click Here](https://github.com/Tabwire/R6Tab-API/blob/master/responses/leaderboardresponse.json)</u>
 
 <hr>
 
