@@ -20,15 +20,17 @@
 - Please note that players that are banned on R6Tab will not appear on this list
 - To call the leaderboard you must supply a `sortplatform` and a `sortregion`
 
-<h3>sortplatform</h3>
-`p_currentmmr` will sort the players by MMR for all regions<br>
-`p_NA_currentmmr` will sort the players by MMR for the American region<br>
-`p_EU_currentmmr` will sort the players by MMR for the European region<br>
-`p_AS_currentmmr` will sort the players by MMR for the Asian region<br>
-`p_skillrating` will sort the players by Tabrank ELO<br>
-`p_headshotacc` will sort the players by headshot accuracy percentage<br>
+METHOD | **sortplatform**:
 
-<h3>sortregion</h3>
+- `p_currentmmr` will sort the players by MMR for all regions<br>
+- `p_NA_currentmmr` will sort the players by MMR for the American region<br>
+- `p_EU_currentmmr` will sort the players by MMR for the European region<br>
+- `p_AS_currentmmr` will sort the players by MMR for the Asian region<br>
+- `p_skillrating` will sort the players by Tabrank ELO<br>
+- `p_headshotacc` will sort the players by headshot accuracy percentage<br>
+
+METHOD | **sortregion**:
+
 - `uplay` will only display PC players<br>
 - `psn` will only display Playstation players<br>
 - `xbl` will only display Xbox players<br>
