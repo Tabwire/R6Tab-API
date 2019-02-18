@@ -81,17 +81,6 @@ METHOD | **p_id**:
 
 An example of a player ID is: <i>**9bd44bde-9c48-48ae-9c2b-4e11e4b16083**</i>
 
-Response data:
-
-- <i>**p_id**</i> is the Identifier assigned by ubisoft to the player<br>
-- <i>**p_name**</i> is the current name of the player<br>
-- <i>**p_level**</i> is the current level of the player<br>
-- <i>**p_level**</i> is the current level of the player<br>
-- <i>**p_level**</i> is the current level of the player<br>
-- <i>**p_level**</i> is the current level of the player<br>
-- <i>**p_level**</i> is the current level of the player<br>
-- <i>**kd**</i> is the average Kill to Death ratio for the player<br>
-
 Example: https://r6tab.com/api/player.php?p_id=9bd44bde-9c48-48ae-9c2b-4e11e4b16083
 
 Example response: <u>[Click Here](https://github.com/Tabwire/R6Tab-API/blob/master/responses/playerdatabyid.json)</u>
