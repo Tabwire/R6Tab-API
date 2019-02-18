@@ -71,10 +71,63 @@ Example response:
 ```
 <hr>
 
+## Get player data by ID
+
+Request URL {GET} https://r6tab.com/api/player.php
+
+METHOD | **p_id**:
+
+- <i>**playerid**</i> is the ID that Ubisoft assigns to every player.<br>
+
+An example of a player ID is: <i>**9bd44bde-9c48-48ae-9c2b-4e11e4b16083**</i>
+
+Response data:
+
+- <i>**p_id**</i> is the Identifier assigned by ubisoft to the player<br>
+- <i>**p_name**</i> is the current name of the player<br>
+- <i>**p_level**</i> is the current level of the player<br>
+- <i>**p_level**</i> is the current level of the player<br>
+- <i>**p_level**</i> is the current level of the player<br>
+- <i>**p_level**</i> is the current level of the player<br>
+- <i>**p_level**</i> is the current level of the player<br>
+- <i>**kd**</i> is the average Kill to Death ratio for the player<br>
+
+
+
+Example: https://r6tab.com/api/player.php?p_id=9bd44bde-9c48-48ae-9c2b-4e11e4b16083
+
+Example response:  see <u>[Click Here](https://github.com/AustinLeath/mmrcalculator/blob/master/assets/images/ranks.jpg)</u>
+
+
+
+
+
+<!--
 ## Search via player ID
-- To find a players ID you can go to https://www.r6tab.com and search for a user. Once you are on the users page there will be a long series of letters and numbers after the .com in r6tab. These letters and numbers are the users ID.
+
+To find a players ID you can go to https://www.r6tab.com and search for a user. Once you are on the users page there will be a long series of letters and numbers after the .com in r6tab. These letters and numbers are the users ID.
+
 - When you search for a player by using and ID you must use `p_id=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` just like below
 `https://r6tab.com/api/player.php?p_id=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <hr>
 
