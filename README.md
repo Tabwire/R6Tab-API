@@ -22,18 +22,18 @@
 
 METHOD | **sortplatform**:
 
-- `p_currentmmr` will sort the players by MMR for all regions<br>
-- `p_NA_currentmmr` will sort the players by MMR for the American region<br>
-- `p_EU_currentmmr` will sort the players by MMR for the European region<br>
-- `p_AS_currentmmr` will sort the players by MMR for the Asian region<br>
-- `p_skillrating` will sort the players by Tabrank ELO<br>
-- `p_headshotacc` will sort the players by headshot accuracy percentage<br>
+- <i>**p_currentmmr**</i> will sort the players by MMR for all regions<br>
+- <i>**p_NA_currentmmr**</i> will sort the players by MMR for the American region<br>
+- <i>**p_EU_currentmmr**</i> will sort the players by MMR for the European region<br>
+- <i>**p_AS_currentmmr**</i> will sort the players by MMR for the Asian region<br>
+- <i>**p_skillrating**</i> will sort the players by Tabrank ELO<br>
+- <i>**p_headshotacc**</i> will sort the players by headshot accuracy percentage<br>
 
 METHOD | **sortregion**:
 
-- `uplay` will only display PC players<br>
-- `psn` will only display Playstation players<br>
-- `xbl` will only display Xbox players<br>
+- <i>**uplay**</i> will only display PC players<br>
+- <i>**psn**</i> will only display Playstation players<br>
+- <i>**xbl**</i> will only display Xbox players<br>
 
 
 ## Affiliation
