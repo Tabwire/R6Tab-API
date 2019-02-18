@@ -22,12 +22,12 @@
 
 METHOD | **sortplatform**:
 
-- `p_currentmmr` will sort the players by MMR for all regions<br>
-- `p_NA_currentmmr` will sort the players by MMR for the American region<br>
-- `p_EU_currentmmr` will sort the players by MMR for the European region<br>
-- `p_AS_currentmmr` will sort the players by MMR for the Asian region<br>
-- `p_skillrating` will sort the players by Tabrank ELO<br>
-- `p_headshotacc` will sort the players by headshot accuracy percentage<br>
+- ```p_currentmmr``` will sort the players by MMR for all regions<br>
+- ```p_NA_currentmmr``` will sort the players by MMR for the American region<br>
+- ```p_EU_currentmmr``` will sort the players by MMR for the European region<br>
+- ```p_AS_currentmmr``` will sort the players by MMR for the Asian region<br>
+- ```p_skillrating``` will sort the players by Tabrank ELO<br>
+- ```p_headshotacc``` will sort the players by headshot accuracy percentage<br>
 
 METHOD | **sortregion**:
 
