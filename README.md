@@ -17,8 +17,8 @@
 `https://r6tab.com/api/player.php?p_id=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`
 
 ## Call the leaderboard
-- Please note that players that are banned on R6Tab will not appear on this list
-- To call the leaderboard you must supply a `sortplatform` and a `sortregion`
+- Please note that players that are banned on R6Tab will not appear on this list and that **the leaderboard is refreshed every hour**
+- To call the leaderboard you must supply a <i>**sortplatform**</i> and a <i>**sortregion**</i> to the request
 
 METHOD | **sortplatform**:
 
@@ -35,6 +35,10 @@ METHOD | **sortregion**:
 - <i>**psn**</i> will only display Playstation players<br>
 - <i>**xbl**</i> will only display Xbox players<br>
 
+## Leaderboard call example
+- An example of a leaderboard call would be:
+
+<i>**https://r6tab.com/api/leaderboards.php?sortplatform=uplay&sortregion=p_NA_currentmmr**</i>
 
 ## Affiliation
 - The R6Tab API is in no way shape or form affiliated with Ubisoft and its partners. Any "Rainbow Six: Siege" name, logos and/or images are registered trademarks of Ubisoft.
