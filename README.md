@@ -2,8 +2,12 @@
   <h1 align="center">Official R6Tab API Documentation</h3>
 </p>
 
+<hr>
+
 ## About
 - Please note that We are offering this API to all of the users in the community who would to get creative with our data.
+
+<hr>
 
 ## Limitations
 - There are no limitations to this API as long as it is not abused. We hold the right to refuse service to anyone who we believe is abusing this system.
