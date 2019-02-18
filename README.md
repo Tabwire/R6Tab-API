@@ -12,7 +12,7 @@
 - https://r6tab.com/api/search.php?platform=XXXXX&search=YYYYY
 
 ## Search via player ID
-- To find a players ID you can go to https://www.r6tab.com and search for a user. Once you are on the users page there will be a long series of letters and numbers after the .com in r6tab. These letters and numbers are the users ID. 
+- To find a players ID you can go to https://www.r6tab.com and search for a user. Once you are on the users page there will be a long series of letters and numbers after the .com in r6tab. These letters and numbers are the users ID.
 - When you search for a player by using and ID you must use `p_id=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx` just like below
 `https://r6tab.com/api/player.php?p_id=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx`
 
@@ -20,18 +20,18 @@
 - Please note that players that are banned on R6Tab will not appear on this list
 - To call the leaderboard you must supply a `sortplatform` and a `sortregion`
 
-<h3>sortplatform<h3>
-- `p_currentmmr` will sort the players by MMR for all regions
-- `p_NA_currentmmr` will sort the players by MMR for the American region
-- `p_EU_currentmmr` will sort the players by MMR for the European region
-- `p_AS_currentmmr` will sort the players by MMR for the Asian region
-- `p_skillrating` will sort the players by Tabrank ELO
-- `p_headshotacc` will sort the players by headshot accuracy percentage
+<h3>sortplatform</h3>
+`p_currentmmr` will sort the players by MMR for all regions<br>
+`p_NA_currentmmr` will sort the players by MMR for the American region<br>
+`p_EU_currentmmr` will sort the players by MMR for the European region<br>
+`p_AS_currentmmr` will sort the players by MMR for the Asian region<br>
+`p_skillrating` will sort the players by Tabrank ELO<br>
+`p_headshotacc` will sort the players by headshot accuracy percentage<br>
 
-<h3>sortregion<h3>
-- `uplay` will only display PC players
-- `psn` will only display Playstation players
-- `xbl` will only display Xbox players
+<h3>sortregion</h3>
+- `uplay` will only display PC players<br>
+- `psn` will only display Playstation players<br>
+- `xbl` will only display Xbox players<br>
 
 
 ## Affiliation
