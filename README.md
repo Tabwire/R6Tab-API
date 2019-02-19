@@ -94,6 +94,12 @@ Request URL {GET} https://r6tab.com/api/leaderboard.php<br>
 - Please note that players that are banned on R6Tab will not appear on this list and that **the leaderboards are refreshed every hour**<br>
 - To call the leaderboard you must supply a <i>**sortplatform**</i> and a <i>**sortregion**</i> to the request<br>
 
+METHOD | **sortplatform**:
+
+- <i>**uplay**</i> will only display PC players<br>
+- <i>**psn**</i> will only display Playstation players<br>
+- <i>**xbl**</i> will only display Xbox players<br>
+
 METHOD | **sortregion**:
 
 - <i>**p_currentmmr**</i> will sort the players by MMR for all regions<br>
@@ -102,12 +108,6 @@ METHOD | **sortregion**:
 - <i>**p_AS_currentmmr**</i> will sort the players by MMR for the Asian region<br>
 - <i>**p_skillrating**</i> will sort the players by Tabrank ELO<br>
 - <i>**p_headshotacc**</i> will sort the players by headshot accuracy percentage<br>
-
-METHOD | **sortplatform**:
-
-- <i>**uplay**</i> will only display PC players<br>
-- <i>**psn**</i> will only display Playstation players<br>
-- <i>**xbl**</i> will only display Xbox players<br>
 
 Example: https://r6tab.com/api/leaderboards.php?sortplatform=psn&sortregion=p_currentmmr
 
