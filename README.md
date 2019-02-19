@@ -39,7 +39,6 @@ Response data:
 
 Note that <i>**p_user**</i> does not always match to <i>**p_id**</i> {p_user} can be used to grab the player avatar: `https://ubisoft-avatars.akamaized.net/p_user/default_146_146.png`
 
-
 Example: https://r6tab.com/api/search.php?platform=uplay&search=Baiier
 
 Example response:
