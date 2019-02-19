@@ -7,8 +7,6 @@
 ## About
 - Please note that We are offering this API to all of the users in the community who would to get creative with our data.
 
-<hr>
-
 ## Limitations
 - There are no limitations to this API as long as it is not abused. We hold the right to refuse service to anyone who we believe is abusing this system.
 
@@ -18,16 +16,15 @@
 
 Request URL {GET} https://r6tab.com/api/search.php
 
-METHOD | **name**:
-
-- <i>**playername**</i> urlencode the playername<br>
-
-
 METHOD | **platform**:
 
 - <i>**uplay**</i> will only display PC players<br>
 - <i>**psn**</i> will only display Playstation players<br>
 - <i>**xbl**</i> will only display Xbox players<br>
+
+METHOD | **search**:
+
+- <i>**playername**</i> urlencode the playername<br>
 
 Response data:
 
