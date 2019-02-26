@@ -116,3 +116,12 @@ Example response: <u>[Click Here](https://github.com/Tabwire/R6Tab-API/blob/mast
 
 ## Affiliation
 - The R6Tab API is in no way shape or form affiliated with Ubisoft and its partners. Any "Rainbow Six: Siege" name, logos and/or images are registered trademarks of Ubisoft.
+
+## Third-Party API Implementations
+API-Clients providing application specific support for the interface.
+
+### List of API clients
+Language | Compatible with | Name | Link
+------------ | ------------- | ------------- | ------------------------------------
+Java | Java/Kotlin | r6tab-java-api-client | https://gitlab.com/siege-insights/r6tab-java-api-client
+
