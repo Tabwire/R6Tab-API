@@ -1,4 +1,5 @@
-  Operator ID: 2:1
+
+	Operator ID: 2:1
 	Operator: Smoke
 	Type: Defender
 
