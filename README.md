@@ -85,6 +85,8 @@ Example: https://r6tab.com/api/player.php?p_id=9bd44bde-9c48-48ae-9c2b-4e11e4b16
 
 Example response: <u>[Click Here](https://github.com/Tabwire/R6Tab-API/blob/master/responses/playerdatabyid.json)</u>
 
+Operators IDs: <u>[Click Here](https://github.com/Tabwire/R6Tab-API/blob/master/Operators.md)</u>
+
 <hr>
 
 ## Call the leaderboard
