@@ -24,6 +24,8 @@ Data field is an array of these information:
 	totalbullets = [16]
 	headshots = [17]
 	totalmelees = [18]
+	totalrevives = [19]
+	totalsuicides = [20]
   
 	NA_wins = [21]
 	NA_losses = [22]
