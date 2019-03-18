@@ -1,12 +1,12 @@
 Data field is an array of these information:
 
-	rankedplayed = [0]
+	rankedtimeplayed = [0]
 	rankedkills = [1]
 	rankeddeaths = [2]
 	rankedwins = [3]
 	rankedlosses = [4]
   
-	casualplayed = [5]
+	casualtimeplayed = [5]
 	casualkills = [6]
 	casualdeaths = [7]
 	casualwins = [8]
