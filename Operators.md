@@ -1,3 +1,8 @@
+[0] Wins
+[1] Losses
+[2] Kills
+[3] Deaths
+[4] TimePlayed (in seconds)
 
 	Operator ID: 2:1
 	Operator: Smoke
