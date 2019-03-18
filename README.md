@@ -87,6 +87,8 @@ Example response: <u>[Click Here](https://github.com/Tabwire/R6Tab-API/blob/mast
 
 Operators IDs: <u>[Click Here](https://github.com/Tabwire/R6Tab-API/blob/master/Operators.md)</u>
 
+Data IDs: <u>[Click Here](https://github.com/Tabwire/R6Tab-API/blob/master/Data.md)</u>
+
 <hr>
 
 ## Call the leaderboard
