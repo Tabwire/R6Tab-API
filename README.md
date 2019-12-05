@@ -24,20 +24,24 @@ METHOD | **platform**:
 
 METHOD | **search**:
 
-- <i>**playername**</i> urlencode the playername<br>
+- <i>**playername**</i> URL encode the playername<br>
 
 Response data:
 
-- <i>**p_id**</i> is the Identifier assigned by ubisoft to the player<br>
+- <i>**p_id**</i> is the Identifier assigned by Ubisoft to the player<br>
 - <i>**p_name**</i> is the current name of the player<br>
 - <i>**p_level**</i> is the current level of the player<br>
-- <i>**p_level**</i> is the current level of the player<br>
-- <i>**p_level**</i> is the current level of the player<br>
-- <i>**p_level**</i> is the current level of the player<br>
-- <i>**p_level**</i> is the current level of the player<br>
-- <i>**kd**</i> is the average Kill to Death ratio for the player<br>
+- <i>**p_platform**</i> is player's platform (uplay, psn, xbl)<br>
+- <i>**p_user**</i> is the Identifier assigned by Ubisoft to the player<br>
+- <i>**p_currentmmr**</i> is the current MMR of the player<br>
+- <i>**p_currentrank**</i> is the current MMR based Rank of the player (see: <u>[Ranks.md](https://github.com/Tabwire/R6Tab-API/blob/master/Ranks.md)</u>)<br>
+- <i>**verified**</i> is the custom Identifier assigned by TabWire to check if the player is verified<br>
+- <i>**kd**</i> is the Kill to Death ratio for the player<br>
 
-Note that <i>**p_user**</i> does not always match to <i>**p_id**</i> {p_user} can be used to grab the player avatar: `https://ubisoft-avatars.akamaized.net/p_user/default_146_146.png`
+Note that <i>**p_user**</i> does not always match to <i>**p_id**</i>
+
+<i>**p_user**</i> can be used to grab the player avatar: 
+`https://ubisoft-avatars.akamaized.net/p_user/default_146_146.png`
 
 Example: https://r6tab.com/api/search.php?platform=uplay&search=Baiier
 
@@ -48,22 +52,24 @@ Example response:
     {
       "p_id": "9bd44bde-9c48-48ae-9c2b-4e11e4b16083",
       "p_name": "BaIIer",
-      "p_level": "341",
+      "p_level": "366",
       "p_platform": "uplay",
       "p_user": "9bd44bde-9c48-48ae-9c2b-4e11e4b16083",
       "p_currentmmr": "3979",
       "p_currentrank": "18",
-      "kd": "128"
+      "verified":1,
+      "kd": "122"
     },
     {
-      "p_id": "83518584-ac1e-4a56-838c-be78f02a523b",
-      "p_name": "BaIIer101",
-      "p_level": "24",
+      "p_id": "54dd1deb-0a93-4be1-b36d-3ff53f43f9fb",
+      "p_name": "BaIIer..",
+      "p_level": "147",
       "p_platform": "uplay",
-      "p_user": "83518584-ac1e-4a56-838c-be78f02a523b",
+      "p_user": "54dd1deb-0a93-4be1-b36d-3ff53f43f9fb",
       "p_currentmmr": "0",
       "p_currentrank": "0",
-      "kd": "0"
+      "verified":0,
+      "kd": "112"
     }
   ],
   "totalresults": 2
@@ -71,7 +77,7 @@ Example response:
 ```
 <hr>
 
-## Get player data by ID
+## Get player's data by ID
 
 Request URL {GET} https://r6tab.com/api/player.php
 
@@ -83,11 +89,11 @@ An example of a player ID is: <i>**9bd44bde-9c48-48ae-9c2b-4e11e4b16083**</i>
 
 Example: https://r6tab.com/api/player.php?p_id=9bd44bde-9c48-48ae-9c2b-4e11e4b16083
 
-Example response: <u>[Click Here](https://github.com/Tabwire/R6Tab-API/blob/master/responses/playerdatabyid.json)</u>
+Example response: <u>[playerdatabyid.json](https://github.com/Tabwire/R6Tab-API/blob/master/responses/playerdatabyid.json)</u>
 
-Operators IDs: <u>[Click Here](https://github.com/Tabwire/R6Tab-API/blob/master/Operators.md)</u>
+Operators IDs: <u>[Operators.md](https://github.com/Tabwire/R6Tab-API/blob/master/Operators.md)</u>
 
-Data IDs: <u>[Click Here](https://github.com/Tabwire/R6Tab-API/blob/master/Data.md)</u>
+Data IDs: <u>[Data.md](https://github.com/Tabwire/R6Tab-API/blob/master/Data.md)</u>
 
 <hr>
 
@@ -114,7 +120,7 @@ METHOD | **sortregion**:
 
 Example: https://r6tab.com/api/leaderboards.php?sortplatform=psn&sortregion=p_currentmmr
 
-Example response: <u>[Click Here](https://github.com/Tabwire/R6Tab-API/blob/master/responses/leaderboardresponse.json)</u>
+Example response: <u>[leaderboardresponse.json](https://github.com/Tabwire/R6Tab-API/blob/master/responses/leaderboardresponse.json)</u>
 
 <hr>
 

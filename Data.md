@@ -1,4 +1,8 @@
-Data field is an array of these information:
+## Data field 
+
+<i>**data**</i> (or <i>**p_data**</i>) field is an array of information listed bellow.
+
+<hr>
 
 	rankedtimeplayed = [0] (in seconds)
 	rankedkills = [1]

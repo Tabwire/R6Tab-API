@@ -1,8 +1,15 @@
-[0] Wins
-[1] Losses
-[2] Kills
-[3] Deaths
-[4] TimePlayed (in seconds)
+## Operators table
+Every Operator has an unique ID. You can access the following data by having an ID:
+Get Operator's thumbnail by using ```https://r6tab.com/images/operators/{ID HERE}.png```
+Example: https://r6tab.com/images/operators/2-14.png (Warden's picture)
+
+	[0] Wins
+	[1] Losses
+	[2] Kills
+	[3] Deaths
+	[4] TimePlayed (in seconds)
+
+Table:
 
 	Operator ID: 2:1
 	Operator: Smoke
@@ -201,9 +208,17 @@
 	Type: Attacker
 
 	Operator ID: 2:12
+	Operator: Mozzie
+	Type: Defender
+
+	Operator ID: 3:12
 	Operator: Gridlock
 	Type: Attacker
 
-	Operator ID: 3:12
-	Operator: Mozzie
+	Operator ID: 2:13
+	Operator: Nøkk (Nokk)
+	Type: Attacker
+
+	Operator Id: 2:14
+	Operator: Warden
 	Type: Defender
