@@ -1,0 +1,98 @@
+{
+    "status": 200,
+    "foundmatch": true,
+    "requested": "baiier",
+    "players": {
+        "9bd44bde-9c48-48ae-9c2b-4e11e4b16083": {
+            "profile": {
+                "p_id": "9bd44bde-9c48-48ae-9c2b-4e11e4b16083",
+                "p_name": "BaIIer",
+                "p_user": "9bd44bde-9c48-48ae-9c2b-4e11e4b16083",
+                "p_platform": "uplay",
+                "verified": true
+            },
+            "refresh": {
+                "x": 0,
+                "s": 0
+            },
+            "stats": {
+                "level": 376
+            },
+            "ranked": {
+                "kd": 1.20999999999999996447286321199499070644378662109375,
+                "mmr": 3875,
+                "rank": 18,
+                "champ": 0,
+                "NA_mmr": 3532,
+                "NA_rank": 0,
+                "NA_champ": 0,
+                "EU_mmr": 3875,
+                "EU_rank": 0,
+                "EU_champ": 0,
+                "AS_mmr": 0,
+                "AS_rank": 0,
+                "AS_champ": 0
+            }
+        },
+        "54dd1deb-0a93-4be1-b36d-3ff53f43f9fb": {
+            "profile": {
+                "p_name": "BaIIer..",
+                "p_user": "54dd1deb-0a93-4be1-b36d-3ff53f43f9fb",
+                "p_platform": "uplay",
+                "verified": false
+            },
+            "refresh": {
+                "x": 0,
+                "s": 0
+            },
+            "stats": {
+                "level": 147
+            },
+            "ranked": {
+                "kd": 1.12000000000000010658141036401502788066864013671875,
+                "mmr": 0,
+                "rank": 0,
+                "champ": 0,
+                "NA_mmr": 0,
+                "NA_rank": 0,
+                "NA_champ": 0,
+                "EU_mmr": 0,
+                "EU_rank": 0,
+                "EU_champ": 0,
+                "AS_mmr": 0,
+                "AS_rank": 0,
+                "AS_champ": 0
+            }
+        },
+        "e4d72be6-780c-41d8-9f6a-f91840a7643c": {
+            "profile": {
+                "p_name": "BaIIerr",
+                "p_user": "e4d72be6-780c-41d8-9f6a-f91840a7643c",
+                "p_platform": "uplay",
+                "verified": false
+            },
+            "refresh": {
+                "x": 0,
+                "s": 0
+            },
+            "stats": {
+                "level": 227
+            },
+            "ranked": {
+                "kd": 1.0500000000000000444089209850062616169452667236328125,
+                "mmr": 3881,
+                "rank": 18,
+                "champ": 0,
+                "NA_mmr": 3881,
+                "NA_rank": 0,
+                "NA_champ": 0,
+                "EU_mmr": 0,
+                "EU_rank": 0,
+                "EU_champ": 0,
+                "AS_mmr": 0,
+                "AS_rank": 0,
+                "AS_champ": 0
+            }
+        }
+    }
+}
