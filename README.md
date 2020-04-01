@@ -53,11 +53,11 @@ PARAMETER | **u**:
 
 - <i>**level**</i> is the level of the player.<br>
 
-<i> **ranked**</i>: <u>[Click Here](https://github.com/Tabwire/R6Tab-API/blob/master/responses/playersdatabyname.json#L21)</u><br>
+<i> **ranked**</i>: <u>[Click Here](https://github.com/Tabwire/R6Tab-API/blob/master/responses/playerdatabyname.json#L21)</u><br>
 
 Example: https://r6.apitab.com/search/uplay/BaIIer?u=1585761495
 
-Example response: <u>[Click Here](https://github.com/Tabwire/R6Tab-API/blob/master/responses/playersdatabyname.json)</u>
+Example response: <u>[Click Here](https://github.com/Tabwire/R6Tab-API/blob/master/responses/playerdatabyname.json)</u>
 
 <hr>
 
