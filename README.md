@@ -26,7 +26,7 @@ PATH | **name**:
 
 - <i>**playername**</i> urlencode the playername<br>
 
-METHOD | **u**:
+PARAMETER | **u**:
 
 - <i>**unix**</i> provide the unix timestamp to avoid caching
 
@@ -69,7 +69,7 @@ PATH | **p_id**:
 
 - <i>**playerid**</i> is the ID that Ubisoft assigns to every player.<br>
 
-METHOD | **u**:
+PARAMETER | **u**:
 
 - <i>**unix**</i> provide the unix timestamp to avoid caching
 
@@ -112,7 +112,7 @@ PATH | **region**:
 - <i>**asia**</i> will return top 100 Asian players<br>
 - <i>**all**</i> will return top 100 players in the world<br>
 
-METHOD | **u**:
+PARAMETER | **u**:
 
 - <i>**unix**</i> provide the unix timestamp to avoid caching
 
