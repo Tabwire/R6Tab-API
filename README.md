@@ -105,7 +105,7 @@ PATH | **platform**:
 
 PATH | **region**:
 
-- <i>**america**</i> will return top 100 Americanan players<br>
+- <i>**america**</i> will return top 100 American players<br>
 - <i>**europe**</i> will return top 100 European players<br>
 - <i>**asia**</i> will return top 100 Asian players<br>
 - <i>**all**</i> will return top 100 players in the world<br>
