@@ -99,9 +99,9 @@ Request URL {GET} https://r6.apitab.com/leaderboards/{platform}/{region}<br>
 
 PATH | **platform**:
 
-- <i>**uplay**</i> will only display PC players<br>
-- <i>**psn**</i> will only display Playstation players<br>
-- <i>**xbl**</i> will only display Xbox players<br>
+- <i>**windows**</i> will only display PC players<br>
+- <i>**playstation**</i> will only display Playstation players<br>
+- <i>**xbox**</i> will only display Xbox players<br>
 
 PATH | **region**:
 
