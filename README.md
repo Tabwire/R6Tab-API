@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">Official R6Tab API Documentation</h3>
+  <h1 align="center">Unofficial Rainbow Six Siege API Documentation By R6Tab | Tabstats.com</h3>
 </p>
 
 <hr>
