@@ -94,6 +94,8 @@ PATH | **p_id**:
 
 Please note, 1800 seconds need to pass for the profile to refresh. If an update request is sent sooner, the request will redirect.
 
+<hr>
+
 ## Call the leaderboard
 
 Request URL {GET} https://r6.apitab.com/leaderboards/{platform}/{region}<br>
