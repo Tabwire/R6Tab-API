@@ -6,6 +6,8 @@
 
 ## About
 - Please note that We are offering this API to all of the users in the community who would to get creative with our data.
+- You can get an API key within 12 hours max by contacting us: https://tabstats.com/contact
+- We give access to everyone, so just explain your project and we'll provide you with an API key.
 
 ## Limitations
 - There are no limitations to this API as long as it is not abused. We hold the right to refuse service to anyone who we believe is abusing this system.
