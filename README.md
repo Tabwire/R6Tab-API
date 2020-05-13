@@ -41,8 +41,8 @@ PARAMETER | **u**:
 
 #### Players Object:
 <i> **profile**</i>
-- <i>**p_id**</i> is the identifier assigned by ubisoft to the player. (Can be used as `p_user`)<br>
-- <i>**p_user**</i> is the identifier assigned by ubisoft to the player. (Can be used as `p_id`)<br>
+- <i>**p_id**</i> is the identifier assigned by ubisoft to the player.<br>
+- <i>**p_user**</i> is the identifier assigned by ubisoft to the player.<br>
 - <i>**p_name**</i> is the current name of the player<br>
 - <i>**p_platform**</i> is the platform of the player<br>
 - <i>**verified**</i> is a `boolean` depicting if the player is verified<br>
