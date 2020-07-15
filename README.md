@@ -5,9 +5,11 @@
 <hr>
 
 ## About
-- We offer this API to all of the users in the community who would like to get creative with our data.
-- You can get an API key within 12 hours by contacting us at https://tabstats.com/contact
-- We give access to everyone, so just explain your project and we'll provide you with an API key.
+No new applications will be accepted at this moment in time. If you sent in an application before 07/13/2020, it is still in the queue.
+[source](https://owo.whats-th.is/3MNuAKh.png)
+- ~~We offer this API to all of the users in the community who would like to get creative with our data.~~
+- ~~You can get an API key within 12 hours by contacting us at https://tabstats.com/contact~~
+- ~~We give access to everyone, so just explain your project and we'll provide you with an API key.~~
 
 ## Limitations
 - There are no limitations to this API as long as it is not abused. We hold the right to refuse service to anyone who we believe is abusing this system.
