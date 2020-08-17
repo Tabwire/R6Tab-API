@@ -220,4 +220,12 @@ Type: Attacker
 Operator ID: 1:1A
 Operator: Caveira
 Type: Defender
+
+Operator ID: 2:1A
+Operator: Melusi
+Type: Defender
+
+Operator ID: 4:17
+Operator: Ace
+Type: Attacker
 ```
