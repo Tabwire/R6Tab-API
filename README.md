@@ -4,6 +4,9 @@
 
 <hr>
 
+## Notice
+No new applications will be accepted at this moment in time due to API abuse concerns. [Source](https://twitter.com/tabwire/status/1317928952317530114?s=20)
+
 ## Limitations
 - There are no limitations to this API as long as it is not abused. We hold the right to refuse service to anyone who we believe is abusing this system.
 
